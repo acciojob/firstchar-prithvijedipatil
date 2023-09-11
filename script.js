@@ -1,14 +1,11 @@
 function firstChar(text) {
   // your code here
-	if(text.length===0){
-		return '';
-	}
-	else if(text[0]===' '){
-		return '';
-	}
-	else {
-		return text[0];
-	}
+	for (let char of str) {
+    if (char !== ' ') {
+      return char;
+    }
+  }
+  return '';
 }
 
 // Do not change the code below
